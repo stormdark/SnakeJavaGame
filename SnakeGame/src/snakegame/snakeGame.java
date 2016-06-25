@@ -195,7 +195,7 @@ public class snakeGame extends JPanel implements KeyListener{
     }
     
     public static void main(String[] args) {
-        System.setProperty("sun.java2d.opengl","True");
+        //System.setProperty("sun.java2d.opengl","True"); /*Uncomment this line if you're running it on LINUX*/
         JFrame frame=new JFrame("Snake");
         snakeGame plantilla=new snakeGame();//plantilla
         frame.add(plantilla);
